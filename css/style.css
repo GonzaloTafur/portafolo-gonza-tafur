@@ -124,3 +124,8 @@ li{
     background-color: #ffffff;
     display: inline-block;
 }
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
