@@ -14,18 +14,22 @@
 
     <body>
 
-        <div class="pure-menu pure-menu-horizontal">
+
+    <div class="pure-menu pure-menu-horizontal">
+        
             <nav>
+                <h3 class="pure-menu-heading">Principal</h3>
                 <a href="#stack" class="pure-menu-link">Stacks</a>
                 <a href="#formacion" class="pure-menu-link">Formación Academica</a>
                 <a href="#proyectos" class="pure-menu-link">Proyectos</a>
-                <a href="static/CV_TafurGonzalo.docx" class="pure-menu-link" downloads>Mi CV</a>
+                <a href="static/CV_TafurGonzalo.pdf" class="pure-menu-link" downloads>Curriculum Vitae</a>
             </nav>
-        </div>
-
+    </div>
+    
+    <main>
         <div class="header">
             <h1>Gonzalo Tafur Bermúdez</h1>
-            <p>Egresado técnico en Desarrollo de software, disponible para conocer nuevos retos en los puestos de TI que más me apasionan y cuales poder introducirme.
+            <p>Egresado técnico en desarrollo de software | Mi objetivo para este año es introducirme al entorno laboral, seguir practicando en lo que más me apasiona y mejorar en mi día a día.
             </p>
         </div>
        
@@ -33,21 +37,23 @@
         <div class="contenedor">
             <section id="stack">
                 <h1>Mi Stack</h1>
-                <div class="pure-g stack">
+                
+                <div class="pure-card">
+                    <div class="pure-g stack">
                     <div style="background-color:yellow;">Python</div>
+                    <div style="background-color:rgb(107, 107, 255);">PHP</div>
                     <div style="background-color: orange;">Java</div>
                     <div style="background-color:red;">SQL</div>
-                    <div style="background-color:tomato;">HTML/XML</div>
+                    <div style="background-color:orangered;">HTML/XML</div>
                     <div style="background-color: rgb(0, 162, 255);">CSS</div>
-                    <div style="background-color:green;">Excel</div>
+                    
                     <div style="background-color:tomato;">Git</div>
                     <div style="background-color:black; color:white">Linux</div>
+                    <div style="background-color:green; color:white">Excel</div>
                 </div>
-
-                <div>
                     <p>Mis Stacks correspondientes son HTML/XML y CSS para el diseño de plantillas y páginas estáticas, y de vez en cuando Javascript para tareas más avanzadas. 
                         En el backend he trabajado básicamente con Java usando Spring Boot con la ayuda de Thymeleaf y de Postman, y Python es el lenguaje con el que actualmente practico y avanzo mis proyectos web,
-                        pero casi siempre estoy probando otros lenguajes con los cuales experimentar con ejercicios o pequeños proyectos.
+                        pero siempre estaré probando y experimentando nuevos lenguajes.
                         Sin embargo, me falta mucho para familiarizarnme desde la optimización de arquitecturas y API REST hasta la integración de seguridad, junto a unas áreas que me gustaría especializarme, 
                         pero eso nunca será tarde.<br><br>
 
@@ -79,7 +85,7 @@
                 <h1>Proyectos</h1>
 
                 <div class="pure-card">
-                    <h3>Software para dietas y rutinas (demo)</h3>
+                    <h2>Software para dietas y rutinas (demo)</h2>
                     <p>Una demo de una aplicación web cuyo objetivo es mejorar el día a día de las personas que sufren de sedentarismo, sobrepeso, etc.
                         El cual se caracteriza por ser interactiva dado a funcionalidades como un horario personalizable, reuniones entre pacientes y nutriologos, registro y actualización
                         de historial médico, etc. <br>
@@ -104,10 +110,10 @@
                                 </div>
 
                                 <div>
-                                    <span class="dot" onclick="imgActual(1, 'crr1')">1</span> 
-                                    <span class="dot" onclick="imgActual(2, 'crr1')">2</span> 
-                                    <span class="dot" onclick="imgActual(3, 'crr1')">3</span> 
-                                    <span class="dot" onclick="imgActual(4, 'crr1')">4</span> 
+                                    <span class="pure-button dot" onclick="imgActual(1, 'crr1')"> </span> 
+                                    <span class="pure-button dot" onclick="imgActual(2, 'crr1')"> </span> 
+                                    <span class="pure-button dot" onclick="imgActual(3, 'crr1')"> </span> 
+                                    <span class="pure-button dot" onclick="imgActual(4, 'crr1')"> </span> 
                                 </div>
 
                             </div>
@@ -116,13 +122,12 @@
                     <div>
                         <a type="button" class="pure-button pure-button-secondary" href="https://github.com/GonzaloTafur/DietasYRutinasOnline" method="get" target="_blank">Repositorio</a>
                    </div>
-                </div>
-
-                <div class="pure-card">
+                   <br>
+                <hr>
                     
                     <div class="pure-g">
                         <div>
-                            <h3>Software para locales de Karaoke (Sin terminar)</h3>
+                            <h2>Sistema de Karaoke (Sin terminar)</h2>
                             <p>Un proyecto ficticio con diversos requerimientos para los actores, sea para enlistar una canción solicitada por un cliente, o para gestionar y consultar información.<br>
                                 Esto es ficticio y quería jugar con las capacidades de Django por primera vez, pero en mi experiencia llendo a karaokes estoy seguro que esto garantizará un buen servicio.
                             </p>
@@ -139,11 +144,11 @@
                                     <div class="imgsld">
                                         <img class="pure-img" src="img/vp_p2_3.png">
                                     </div>
-
+                                    
                                     <div>
-                                        <span class="dot" onclick="imgActual(1, 'crr2')">1</span> 
-                                        <span class="dot" onclick="imgActual(2, 'crr2')">2</span> 
-                                        <span class="dot" onclick="imgActual(3, 'crr2')">3</span> 
+                                        <span class="pure-button dot" onclick="imgActual(1, 'crr2')"> </span> 
+                                        <span class="pure-button dot" onclick="imgActual(2, 'crr2')"> </span> 
+                                        <span class="pure-button dot" onclick="imgActual(3, 'crr2')"> </span> 
                                     </div>
 
                                 </div>
@@ -159,7 +164,11 @@
             
         </div>
         
-        <footer>
+        
+    </main>
+
+
+    <footer>
             <ul>
                 <li><i class="fa fa-briefcase"></i>: <a href="https://www.linkedin.com/in/gonzalo-tafur-berm%C3%BAdez-aa6898326/" target="_blank">LinkedIn</a></li>
                 <li><i class="fa fa-phone"></i>: 949 625 067</li>
@@ -167,7 +176,8 @@
             </ul>
             <br>
         </footer>
-    </body>
+    
+</body>
 
     <script src="./js/script.js"></script>
 </html>

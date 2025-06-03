@@ -30,18 +30,22 @@ section h1{
     max-width: 100%;
     overflow: hidden;  /* Evita que el contenido sobresalga */
     white-space: nowrap;
-    background-color: white;
-    position: fixed;
+    background-color:lightgoldenrodyellow;
 }
 
 nav{
     display:flex;
-    padding: 1%;
+}
+
+.pure-menu-link{
+    color: black;
+    font-weight: bold;
+    padding: 1.5%;
 }
 
 @media (max-width: 570px) {
     .pure-menu{
-        position: relative;
+        display: none;
     }
 
     nav {
@@ -57,9 +61,6 @@ nav{
     }
 }
 
-.pure-menu-item{
-    margin: 10px;
-}
 
 .stack{
     padding: 12px;
@@ -74,7 +75,8 @@ nav{
     background-color: rgb(201, 201, 201);
     border-radius: 20px;
     padding: 3%;
-    margin: 20px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 footer{
@@ -116,12 +118,12 @@ li{
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 6px;
+    height: 17px;
+    width: 17px;
+    margin: 9px;
     padding: 6px;
-    border-radius: 20%;
-    background-color: #ffffff;
+    border-radius: 100%;
+    background-color:gray;
     display: inline-block;
 }
 
