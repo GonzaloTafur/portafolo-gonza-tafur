@@ -131,3 +131,12 @@ footer a{
     color: white;
     text-decoration: none;
 }
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    color: gray;
+}
