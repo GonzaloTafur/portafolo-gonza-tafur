@@ -1,5 +1,5 @@
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .header{
@@ -77,6 +77,7 @@ nav{
     padding: 3%;
     margin: 0 auto;
     width: 80%;
+    box-shadow: 1px 1px 5px #0000004d;
 }
 
 footer{
@@ -89,9 +90,7 @@ footer{
     font-weight: bolder;
 }
 
-ul{
-    list-style-type: none;
-}
+
 
 li{
     max-height: 40px;
@@ -101,11 +100,12 @@ li{
 .pure-img{
     max-width: 55%;
     min-width: 220px;
+    box-shadow: 1px 1px 5px #0000004d;
 }
 
 #carrusel1, #carrusel2 {
     position: relative;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .imgsld {
