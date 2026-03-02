@@ -140,3 +140,7 @@ a{
 a:hover{
     color: gray;
 }
+
+p{
+    line-height: 26px;
+}
